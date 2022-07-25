@@ -153,7 +153,6 @@ const AddProduct = () => {
 
   return (
     <Base title="Add Product" description="Welcome to product creation section" className="container bg-info p-4">
-      <h1 className="text-white">Your Assignment</h1>
       <Link to="/admin/dashboard" className="btn btn-md btn-dark mb-3">Admin Home</Link>
       <div className="row bg-dark text-white rounded">
         <div className="col-md-8 offset-md-2">

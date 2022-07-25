@@ -36,7 +36,7 @@ function Cart() {
                 <div className="card-body">
                     <p className="btn btn-success rounded btn-sm px-4 d-flex">Items   : {products.length}</p>
                     <p className="btn btn-success rounded  btn-sm px-4 d-flex">Payment : ${getTotal()}</p>
-                    <button className="btn btn-warning rounded  btn-sm px-4 text-center w-100">Buy All</button>
+                    <button className="btn btn-warning rounded  btn-sm px-4 text-center w-100" disabled>Buy All</button>
                 </div>
             </div>
         )

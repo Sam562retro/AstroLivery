@@ -25,7 +25,7 @@ function Home() {
 
   console.log("API IS", API);
   return (
-    <Base title="Home Page" description="Welcome to the Store">
+    <Base title="AstroLivery" description="Welcome to the Store">
       <div className="row">
         {products.map((product, index) => {
           return(

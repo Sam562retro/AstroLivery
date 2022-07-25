@@ -24,13 +24,10 @@ const UserDashBoard = () => {
           </li>
           <li className="list-group-item">
               <div className="row">
-                <div className="col-md-4">
-                  <Link className="btn btn-warning w-100" to={'/'}>Update Your Details</Link>
-                </div>
-                <div className="col-md-4">
+                <div className="col-md-6">
                   <Link className="btn btn-success w-100" to={'/'}>Go To Shop</Link>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-6">
                   <Link className="btn btn-info w-100" to={'/cart'}>Your Cart</Link>
                 </div>
               </div>
